@@ -23,11 +23,3 @@ axios.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
   console.log(error);
 });
 
-// jquery
-$.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
-.then(response => {
-  console.log(response)
-})
-.catch(error => {
-  console.log(error);
-});
